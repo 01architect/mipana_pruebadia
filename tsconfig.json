@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./api-core-e2e"
+    },
+    {
+      "path": "./api-core"
+    },
+    {
+      "path": "./shell-app-e2e"
+    },
+    {
+      "path": "./shell-app"
+    }
+  ]
 }
